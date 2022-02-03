@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+    background-color: #000;
+    font-family: "MinSans-Medium";
+    text-align: center;
+}
+
+img{
+    width: 44px;
+    height: 44px;
+    padding: auto;
+}
+
+#mobile{
+    position: fixed;
+    z-index: 100;
+}
+
+#backimg{
+    width: 100%;
+    height: 100%;
+}
+
+#videobass{
+    position: fixed;
+    left: -5%;
+    height: 100%;
+    width: 100%;
+}
+
+#video{
+    height: 110%;
+    width: 110%;
+}
+
+#main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    margin-left:-250px;
+    margin-top: -91px;
+}
+
+#nickname{
+    position: absolute;
+    width: 100%;
+    padding: 10px 0 11px 0;
+    background-color: #ffffffc0;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 2.3em;
+}
+
+#hyperlink{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    margin-top: 76px;
+    padding-top: 18px;
+    background-color: #ffffffc0;
+}
+
+#comments{
+    position: absolute;
+    width: 100%;
+    margin-top: 160px;
+    padding: 10px 0 11px 0;
+    background-color: #ffffffc0;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#copyright{
+    position: fixed;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    bottom: -1px;
+
+}
+
+.icon{
+    padding: 0px 10px 0px 10px;
+}
+
+a{text-decoration: none;}
+a:link{color: #aaa;}
+a:visited{color: #aaa;}
+a:hover{color: #666;}
