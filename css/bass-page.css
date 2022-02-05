@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+    font-family: "MinSans-Medium";
+    text-align: center;
+    background-image: url("../backgruond.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#navibar{
+    background-color: #555;
+    color:#fff;
+    text-align: left;
+    padding-left: 120px;
+}
+
+#logo{
+    position: relative;
+    padding: 10px 0px 10px 0px;
+}
+
+#main{
+    margin: 45px 100px 126px 100px;
+    width: auto;
+    background-color: #ffffffbb;
+    text-align: left;
+    padding: 35px 50px;
+}
+
+#title{
+    font-size: 3em;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+#copyright{
+    position: fixed;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    bottom: -1px;
+
+}
+
+a{text-decoration: none;}
+a:link{color: #fff;}
+a:visited{color: #fff;}
+a:hover{color: #888;}
