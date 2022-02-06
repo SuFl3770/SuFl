@@ -24,32 +24,43 @@ body{
     padding-left: 120px;
 }
 
+#link{
+    position: absolute;
+    top: 17px;
+    left: 210px;
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.link{padding: 0px 11px;}
+
 #logo{
     position: relative;
     padding: 10px 0px 10px 0px;
 }
 
-#main{
+.main{
     margin: 45px 100px 126px 100px;
     width: auto;
-    background-color: #ffffffbb;
+    background-color: #ffffffcc;
     text-align: left;
     padding: 35px 50px;
 }
 
-#title{
+.title{
     font-size: 3em;
     padding-bottom: 10px;
 }
 
+.maintext{
+    font-size: 1.15em;
+}
 
-
-
-
-
-
-
-
+.info{
+    padding-top: 10px;
+    font-size: 1.2em;
+    text-align: right;
+}
 
 #copyright{
     position: fixed;
@@ -63,6 +74,6 @@ body{
 }
 
 a{text-decoration: none;}
-a:link{color: #fff;}
-a:visited{color: #fff;}
+a:link{color: unset;}
+a:visited{color: unset;}
 a:hover{color: #888;}
